@@ -1,0 +1,17 @@
+{
+    "name": "mjy191/enum",
+    "description": "常用枚举",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mjy191\\Enum\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "MengJinYi",
+            "email": "mjy191@163.com"
+        }
+    ],
+    "require": {}
+}
