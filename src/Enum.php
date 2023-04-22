@@ -18,7 +18,7 @@ class Enum
     // 小程序解密手机号码错误
     const decryptPhoneError= 5;
     // 请求method方式错误
-    const erCodeMethod     = 100;
+    const erCodeMethod     = 405;
     // token错误
     const erCodeToken      = 401;
     // 接口404
@@ -35,7 +35,7 @@ class Enum
         self::erCodeSystem      => '系统错误',
         self::erCodeSign        => 'sing error',
         self::decryptPhoneError => '手机号码获取失败，请重新获取',
-        self::erCodeMethod      => '请求method方式错误',
+        self::erCodeMethod      => '请求method协议错误',
         self::erCodeToken       => 'token错误',
         self::erCodeNotFound    => '404 not found',
         self::erCodeServer      => '服务器错误',
